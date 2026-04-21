@@ -1,0 +1,6 @@
+interface:
+  display_name: "Pi Transcript"
+  short_description: "Extract conversational text from pi.dev sessions for analysis, review, or summarization"
+  default_prompt: "Use $pi-transcript to extract session text for analysis."
+policy:
+  allow_implicit_invocation: true
